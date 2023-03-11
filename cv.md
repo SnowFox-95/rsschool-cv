@@ -54,3 +54,25 @@ for letter in alpha:
         print(word, letter)
         word = word.replace(letter, '').replace('  ', ' ').strip()
 ```
+
+## Experience
+
+- **2022- present**
+
+  ***PJSC Megafon*** Technical support specialist for non-voice Yota channels
+
+- **2016-2022**
+
+  ***Yota( Scartel LLC)*** Technical Support Specialist
+
+#### Passed Courses:
+
+- **[BeeGeek Python - basic](https://stepik.org/course/58852)**
+- **[HTML, CSS - basic](https://beonmax.com/courses/html-and-css/)**
+- **[Bootstrap](https://beonmax.com/courses/bootstrap/)**
+
+## Languages
+
+**Russian** - native;
+
+**English** - A2 - elementary;
