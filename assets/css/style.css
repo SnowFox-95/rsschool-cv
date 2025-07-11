@@ -39,13 +39,6 @@ main {
   flex: 1 0 auto;
 }
 
-.footer-content {
-  width: 56%;
-  margin: 0 auto;
-  padding: 8px;
-  background: #17d3a7;
-  text-align: center;
-}
 /* nav */
 
 nav ul {
@@ -78,7 +71,7 @@ nav ul li a {
   list-style: none;
   padding: 0;
 }
-.aside-title {
+.aside_title {
   width: 200px;
   background-color: #17d3a7;
   font-size: 18px;
@@ -104,8 +97,43 @@ nav ul li a {
   color: antiquewhite;
   font-style: italic;
 }
+/* main */
+.main_content {
+  flex: 1 1 75%;
+  max-width: 75%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.CV_Title {
+  text-align: center;
+  padding-left: 30px;
+}
+
+.main_title {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a2a2a;
+  background: #17d3a7;
+  text-align: center;
+}
+.aboutme_text {
+  text-indent: 2em;
+}
+
 /* footer */
-.footer-content ul li {
+.footer_content {
+  width: 56%;
+  margin: 0 auto;
+  padding: 8px;
+  background: #17d3a7;
+  text-align: center;
+}
+.footer_content ul li {
   display: inline-block;
   margin-right: 20px;
   color: #2a2a2a;
@@ -113,7 +141,7 @@ nav ul li a {
   font-size: 18px;
   font-weight: bold;
 }
-.footer-content ul li a {
+.footer_content ul li a {
   color: #2a2a2a;
   text-decoration: none;
   font-weight: bold;
