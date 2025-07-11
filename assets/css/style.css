@@ -272,7 +272,46 @@ pre code {
   display: block;
   transition: all 0.3s ease;
 }
-
+/* education */
+.edu {
+  display: flex;
+}
+.education_years {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.education_content {
+  display: flex;
+  flex-direction: column;
+}
+.education_years p {
+  white-space: nowrap;
+}
+.education_years p:first-child {
+  margin-bottom: 44px;
+}
+.education_years p,
+.education_content p {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+.education_years p:last-child,
+.education_content p:last-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* languages */
+.languages {
+  display: flex;
+  font-size: 20px;
+}
+.lang {
+  width: 30%;font-weight: bold;text-transform: uppercase;
+}
+.lang_lvl {
+  width: 70%;
+}
 /* footer */
 .footer_content {
   width: 56%;
