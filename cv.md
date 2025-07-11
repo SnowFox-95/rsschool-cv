@@ -10,6 +10,10 @@
 
     - Alexey Bespyatykh (@snowfox-95)
 
+##### Telegram
+
+    - <https://t.me/SnowFox996>
+
 #### About me
 
     - 29 years old.
@@ -60,6 +64,8 @@ Deploy: <https://snowfox-95.github.io/Burn/>
         - web developer from scratch to result
         - basics of html/css
         - bootstrap
+- 2025 RS School
+    - Stage 0. Front-end Pre-school (IN PROGRESS...)
 
 #### English language
 

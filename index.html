@@ -1,10 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CV| Alexey Bespyatykh</title>
 </head>
+
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#example">Code examples</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="aside">
+                <div class="avatar">
+                    <picture class="av">
+                        <source srcset="assets/img/av1.webp" type="image/webp">
+                        <img src="assets/img/av1.jpg" alt="Avatar" width="250" height="350">
+                    </picture>
+                </div>
+                <section class="skills">
+                    <div class="aside_title">
+                        <h2>Skills</h2>
+                    </div>
+                    <ul class="skill">
+                        <li>HTML5</li>
+                        <li>SCSS</li>
+                        <li>JS</li>
+                        <li>Markdown</li>
+                        <li>GIT</li>
+                        <li>python</li>
+                        <li>Gulp</li>
+                    </ul>
+                </section>
+
+                <section class="contacts">
+                    <div class="aside_title contacts_t">
+                        <h2>Contacts</h2>
+                    </div>
+                    <ul class="contact">
+                        <li>Email: <br><a class="Email" href="mailto:abespyatykh95@vk.com">abespyatykh95@vk.com</a></li>
+                        <li><br><a class="Email" href="https://t.me/SnowFox996">Write to Telegram</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main_content">
+                <h1 class="CV_Title">Alexey Bespyatykh</h1>
+                <section id="aboutme">
+                    <div class="main_title">
+                        <h2>About Me</h2>
+                    </div>
+                    <p class="aboutme_text">I am 29 years old and live in Kirov, Kirov Oblast. Since 2016, I have been
+                        working in technical support for a mobile operator. In my free time, I like to study different
+                        cultures and different topics, especially in the IT field. Recently, I have been especially
+                        attracted to front-end development.</p>
+                </section>
+                <section id="example">
+                    <div class="main_title">
+                        <h2>Code Examples</h2>
+
+                    </div>
+                    <pre>
+                            <code>
+    <span class="keyword">function</span> <span class="function">digitalRoot</span>(n) {
+        <span class="keyword">while</span> (n <span class="operator">&gt;=</span> <span class="number">10</span> ) {
+            n = n.<span class="method">toString</span>().<span class="method">split</span>(<span class="string">''</span>).<span class="method">reduce</span>((acc, digit)<span class="operator">=&gt;</span>  acc <span class="operator">+</span> <span class="function">Number</span>(digit),  <span class="number">0</span>);
+        }
+       <span class="keyword">return</span>  n;
+    }
+                            </code>
+                        </pre>
+
+                </section>
+                <section id="works">
+                    <div class="main_title">
+                        <h2>Works</h2>
+                    </div>
+                    <div class="work_one">
+                        <h2>Buy some clothes</h2>
+                        <a class="git_code" href="https://github.com/SnowFox-95/Rymo-shop">View code</a>
+                        <a class="site_link" href="https://snowfox-95.github.io/Rymo-shop/">Go to website</a>
+                    </div>
+                    <div class="work_two">
+                        <h2>Healthy Eating</h2>
+                        <a class="git_code" href="">View code</a>
+                        <a class="site_link" href="">Go to website</a>
+                    </div>
+                    <div class="work_three">
+                        <h2>Have fun</h2>
+                        <a class="git_code" href="">View code</a>
+                        <a class="site_link" href="">Go to website</a>
+                    </div>
+                </section>
+                <section id="education">
+                    <div class="main_title">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="edu">
+                        <div class="education_years">
+                            <p>2011 - 2015</p>
+                            <p>2022</p>
+                            <p>2022</p>
+                            <p>2022</p>
+                            <p>2025</p>
+                        </div>
+                        <div class="education_content">
+                            <p>Omutninsk College of Pedagogy, Economics and Law. Specialty: Technician-programmer</p>
+                            <p>Beonmax : Web developer from scratch to results</p>
+                            <p>Beonmax : Basics of HTML/CSS</p>
+                            <p>Beonmax : Bootstrap</p>
+                            <p>RS School : Stage 0. Front-end Pre-school<br>(IN PROGRESS...)</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="languages">
+                    <div class="main_title">
+                        <h2>Languages</h2>
+                    </div>
+                    <div class="languages">
+                        <div class="lang">
+                            <p>Russian</p>
+                            <p>English</p>
+                        </div>
+                        <div class=" lang_lvl">
+                            <p>Native</p>
+                            <p>A2</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer_content">
+            <ul>
+                <li><a href="https://github.com/snowfox-95">Github автора</a></li>
+                <li>Создано в 2025</li>
+                <li><a href="https://rs.school/courses/javascript-preschool-ru"><img src="assets/img/rs-school-logo.svg" alt="Course"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
 </html>
