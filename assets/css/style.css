@@ -124,7 +124,32 @@ nav ul li a {
 .aboutme_text {
   text-indent: 2em;
 }
-
+pre code {
+  display: block;
+  padding: 10px;
+  background: #403c3c50;
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+.keyword {
+  color: #569cd6;
+  font-weight: bold;
+}
+.function {
+  сolor: #4ec9b0;
+}
+.number {
+  color: #b5cea8;
+}
+.string {
+  color: #ce9178;
+}
+.method {
+  color: #dcdcaa;
+}
+.operator {
+  color: #d4d4d4;
+}
 /* footer */
 .footer_content {
   width: 56%;

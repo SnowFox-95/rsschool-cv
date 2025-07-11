@@ -62,7 +62,7 @@
                     <div class="main_title">
                         <h2>About Me</h2>
                     </div>
-                    <p class="aboutme_text" >I'm 29 years old and currently living in Kirov, in the Kirov region. Since
+                    <p class="aboutme_text">I'm 29 years old and currently living in Kirov, in the Kirov region. Since
                         2016, I've been working in technical support for a mobile operator. In my free time, I enjoy
                         learning about a variety of topics, especially in the field of IT. Lately, I've found myself
                         particularly drawn to frontend development.</p>
@@ -70,7 +70,18 @@
                 <section id="example">
                     <div class="main_title">
                         <h2>Code Examples</h2>
+
                     </div>
+                    <pre>
+                            <code>
+    <span class="keyword">function</span> <span class="function">digitalRoot</span>(n) {
+        <span class="keyword">while</span> (n <span class="operator">&gt;=</span> <span class="number">10</span> ) {
+            n = n.<span class="method">toString</span>().<span class="method">split</span>(<span class="string">''</span>).<span class="method">reduce</span>((acc, digit)<span class="operator">=&gt;</span>  acc <span class="operator">+</span> <span class="function">Number</span>(digit),  <span class="number">0</span>);
+        }
+       <span class="keyword">return</span>  n;
+    }
+                            </code>
+                        </pre>
 
                 </section>
                 <section id="works">
