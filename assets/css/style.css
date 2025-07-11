@@ -1,18 +1,53 @@
+/* Base elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
 body {
+  padding: 0;
   margin: 0;
+}
+body {
   font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   line-height: 1.6;
   color: antiquewhite;
   background: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  margin: 0;
+  padding-top: 0;
 }
 nav {
   background: #17d3a7;
   text-align: center;
   padding: 20px;
   width: 56%;
-  margin: 20px auto;
+  margin: 0 auto 20px;
 }
+main {
+  width: 56%;
+  margin: 0 auto;
+  display: flex;
+}
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.footer-content {
+  width: 56%;
+  margin: 0 auto;
+  padding: 8px;
+  background: #17d3a7;
+  text-align: center;
+}
+/* nav */
+
 nav ul {
   display: inline-flex;
   margin: 0;
@@ -31,11 +66,9 @@ nav ul li a {
   font-size: 20px;
   text-transform: uppercase;
 }
-main {
-  width: 56%;
-  margin: 0 auto;
-  display: flex;
-}
+
+/* aside */
+
 .aside {
   flex: 0 0 25%;
   width: 200px;
@@ -62,4 +95,26 @@ main {
   content: "-";
   position: absolute;
   left: 15px;
+}
+.contacts {
+  padding-top: 5px;
+}
+.Email {
+  text-decoration: none;
+  color: antiquewhite;
+  font-style: italic;
+}
+/* footer */
+.footer-content ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-content ul li a {
+  color: #2a2a2a;
+  text-decoration: none;
+  font-weight: bold;
 }
