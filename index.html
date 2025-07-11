@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>CV| Alexey Bespyatykh</title>
 </head>
 
@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#example">Example</a></li>
+                <li><a href="#example">Code examples</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#languages">Languages</a></li>
@@ -21,15 +21,53 @@
         </nav>
     </header>
     <main>
-        <section id="aboutme"></section>
-        <section id="example"></section>
-        <section id="works"></section>
-        <section id="education"></section>
-        <section id="languages"></section>
+        <div class="aside">
+            <section class="avatar">
+                <picture class="av">
+                    <source srcset="assets/img/avatar.webp" media="(min-width: 800px)"
+                        sizes="(min-width: 800px) 200px, (max-width: 799px) 150px" type="image/webp">
+                    <source srcset="assets/img/avatar.jpg" type="image/jpeg">
+                    <img src="assets/img/avatar.jpg" alt="Avatar" width="200" height="200">
+                </picture>
+            </section>
+            <section class="skills">
+                <div class="aside-title">
+                    <h2>Skills</h2>
+                </div>
+                <ul class="skill">
+                    <li>HTML5</li>
+                    <li>SCSS</li>
+                    <li>JS</li>
+                    <li>Markdown</li>
+                    <li>GIT</li>
+                    <li>python</li>
+                    <li>Gulp</li>
+                </ul>
+            </section>
+
+            <section class="contacts">
+                <div class="aside-title">
+                    <h2>Contacts</h2>
+                </div>
+                <ul class="contact">
+                    <li>Email: <br><!-- <a class="Email" href="mailto:"> -->***</a></li>
+                    <li>Discord: <br><!-- <a class="Discord" href="https://discord.com/users/***"> -->***</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="main-content">
+            <!--   <h1>Alexey Bespyatykh</h1> -->
+            <section id="aboutme"><!-- About ME --></section>
+            <section id="example"></section>
+            <section id="works"></section>
+            <section id="education"></section>
+            <section id="languages"></section>
+        </div>
     </main>
     <footer>
         <div class="footer-content">
-            
+
         </div>
     </footer>
 </body>
